@@ -90,4 +90,4 @@ Details of the licensing of Blocky.
 
 ---
 
-For more information, visit [Blocky on GitHub](https://github.com/robocopklaus/hassio-addon-blocky).
+For more information, visit [Blocky on GitHub](https://github.com/chafi-cassim/hassio-addon-blocky).

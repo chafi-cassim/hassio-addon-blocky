@@ -1,10 +1,10 @@
 ---
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Blocky
-version: "0.2.8.1"
+version: "0.2.8.2"
 slug: blocky
 description: Fast and lightweight DNS proxy as ad-blocker for local network with many features
-url: "https://github.com/robocopklaus/hassio-addon-blocky/tree/main/blocky"
+url: "https://github.com/chafi-cassim/hassio-addon-blocky/tree/main/blocky"
 arch:
   - armhf
   - armv7

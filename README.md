@@ -21,7 +21,7 @@ Blocky is an advanced DNS proxy and ad-blocking add-on designed for Home Assista
 ## Installation
 
 1. Navigate to **[Settings → Add-ons → Add-on Store](https://my.home-assistant.io/redirect/supervisor_store/)** in Home Assistant.
-2. Click **⋮ → Repositories**, enter `https://github.com/robocopklaus/hassio-addon-blocky` and click **Add → Close**. Alternatively, use the [Add-on Repository Badge](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Frobocopklaus%2Fhassio-addon-blocky) for a quick setup.
+2. Click **⋮ → Repositories**, enter `https://github.com/chafi-cassim/hassio-addon-blocky` and click **Add → Close**. Alternatively, use the [Add-on Repository Badge](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Frobocopklaus%2Fhassio-addon-blocky) for a quick setup.
 3. Find the Blocky add-on in the store, click on it, and press **Install**. Wait for the installation to complete.
 
 ## Post-Installation Configuration
