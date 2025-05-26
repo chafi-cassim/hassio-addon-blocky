@@ -12,6 +12,10 @@ configuration:
     name: Bootstrap DNS Servers
     description: Define DNS servers for resolving blacklist URLs and upstream DNS servers by hostname. These are used if no system DNS resolver is configured or to encrypt bootstrap queries. Specify just the upstream for IP-based upstreams, omitting the ips field.
 
+  conditionalDNSMapping:
+    name: Custom DNS Mapping
+    description: Map specific hostnames to IP addresses. This is useful for overriding DNS queries for local devices or services, such as mapping a hostname to your router's IP address. You can specify multiple mappings.
+
   conditionalMapping:
     name: Domain-Specific DNS Resolvers
     description: Redirect DNS queries for specific domains (and their subdomains) to designated DNS resolvers. Useful for routing local network queries to your router, as it can map hostnames to IP addresses within your network.

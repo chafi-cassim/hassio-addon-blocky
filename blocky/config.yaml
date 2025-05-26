@@ -25,6 +25,8 @@ options:
     - https://cloudflare-dns.com/dns-query
   bootstrapDns:
     - upstream: tcp+udp:1.1.1.1
+  
+  customDNSMapping: []
   conditionalMapping: []
 
   blackLists:
@@ -59,6 +61,9 @@ schema:
     - upstream: str?
       ips:
         - str?
+  customDNSMapping:
+    - domain: str
+      ip: str
   conditionalMapping:
     - domain: str
       ip: str

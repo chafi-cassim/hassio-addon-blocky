@@ -23,6 +23,14 @@ bootstrapDns:
 {{- end }}
 {{- end }}
 
+## Custom DNS Mapping
+# Used to define ip dns specific mapping
+customDNS:
+  mapping:
+  {{- range .customDNSMapping }}
+    {{ .domain }}: {{ .ip }}
+  {{- end }}
+
 ## Conditional DNS Mapping
 # Redirect DNS queries for specific domains to designated DNS resolvers.
 conditional:
