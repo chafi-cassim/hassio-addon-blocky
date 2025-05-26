@@ -41,3 +41,4 @@ Blocky can be used to:
 - Enhance network security by blocking malicious domains.
 - Improve browsing speed by reducing ad load times.
 - Customize DNS resolution for specific domains in your network.
+
